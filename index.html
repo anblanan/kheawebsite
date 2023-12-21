@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Khea te quiero - Anxo 14/12/2023</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Khea Young Flex</h1>
+        <hr>
+        <!-- ALT attribute will aonly appear if the image can´t be loaded-->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Khea_-_Openair_Frauenfeld_2019_02.jpg"
+            width="200px" id="portada" alt="Argentinian Trapper Khea">
+        <h2>Información personal</h2>
+        <p>Ivo Alfredo Thomas Serue (<a href="https://es.wikipedia.org/wiki/Virreyes_(Argentina)">Virreyes</a>, Buenos
+            Aires; 13 de abril de 2000), conocido artísticamente como Khea, es un
+            rapero, cantante y compositor argentino. </p>
+
+        <h2>Aqui sigo remix <b>LETRA</b></h2>
+
+        <p><b>Mentirosa</b><br>
+            Cuando me dices: No te miento, sé que me ocultas cosas<br>
+            Dime cuántas caras tienes y por qué me destrozas<br>
+            Ves lo que hace falta, pero no lo que te doy<br>
+            Y son muchas dudas con las que desperté hoy<br>
+        </p>
+        <h2>Discografia</h2>
+        <ul>
+            <li>Singles</li>
+            <li>Albums
+                <ol>
+                    <li>Trapicheo</li>
+                    <li>Serotonina</li>
+                </ol>
+            </li>
+        </ul>
+        <table>
+            <thead>
+                <tr>
+                    <th>Álbum</th>
+                    <th>Año de lanzamiento</th>
+                    <th>Nº de canciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Trapicheo</td>
+                    <td>2020</td>
+                    <td>14</td>
+                </tr>
+            </tbody>
+            <tr>
+                <td>Serotonina</td>
+                <td>2023</td>
+                <td>18</td>
+            </tr>
+        </table>
+    </main>
+    <section>
+        <h2> Regístrate </h2>
+        <p>Regístrate para formar parte de nuestro club de fans y ser notificado de todas las noticias</p>
+        <form>
+
+            <label for="nombre"> Nombre</label>
+            <input type="text" class="reg" name="nombre" id=nombre placeholder="Nombre" required minlength="2"
+                maxlength="20">
+
+            <label for="apellido"> Apellido</label>
+            <input type="text" class="reg" name="apellido" id="apellido" placeholder="Apellido" required minlength="2"
+                maxlength="20">
+            </div>
+            <p>
+                Selecciona un método de afiliación:
+            </p>
+            <form action="">
+                <div>
+                    <input type="radio" id="mes" name="afil" value="Mensual" checked>
+                    <label for="mes">Mensual 3$</label>
+                </div>
+                <div>
+                    <input type="radio" id="semestral" name="afil" value="Semestral">
+                    <label for="semestral">Semestral 15$</label>
+                </div>
+                <div>
+                    <input type="radio" id="anual" name="afil" value="Anual">
+                    <label for="anual"> Anual 25$</label>
+                </div>
+                </div>
+                <div>
+                    <label for="email"> Email:</label>
+                    <input type="email" class="reg" name="email" id="email" placeholder="correo electrónico" required>
+                    <label for="pass">Enter password:</label>
+                    <input type="password" class="reg" name="password" id="pass" placeholder="contraseña" required>
+                </div>
+                <div>
+                    <label for="edad">Seleccione grupo de edad</label>
+                    <select name="edad" id="edad">
+                        <option value="-18"> Menor de 18 años </option>
+                        <option value="+18"> Entre 18 y 65 años</option>
+                        <option value="+65"> Mayor de 65 años</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="submit" class="reg" id="reg" name="registro">
+                    <input type="reset" class="reg" id="reg" name="reset">
+                </div>
+            </form>
+    </section>
+
+</body>
+
+<footer>
+    <ul>
+        <li><a href="ContactUs"> Contact</a></li>
+        <li><a href="AboutUs">About</a></li>
+        <li><a href="Concerts">Conciertos</a></li>
+    </ul>
+</footer>
+
+</html>

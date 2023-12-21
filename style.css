@@ -1,0 +1,58 @@
+h1 {
+    color: white;
+    background-color: #780000;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+h2 {
+    color: black;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+body {
+    background-color: #fdf0d5;
+    color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 20px;
+}
+
+label {
+    font-size: 20px;
+}
+
+table {
+    font-size: 150%;
+    text-align: center;
+}
+
+ul {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+section {
+    text-align: center;
+    font-size: 10px;
+}
+
+.reg {
+    background-color: #003049;
+    color: white;
+    font-weight: 600;
+}
+
+footer a {
+    color: #c1121f;
+    text-decoration: underline;
+}
